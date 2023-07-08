@@ -1,0 +1,7 @@
+com\qa\testcases\LoginAndSearchPrd.class
+com\qa\testcases\AddAddress.class
+com\qa\testcases\LoginTestCase.class
+com\qa\testcases\RegisterTestCases.class
+com\qa\testcases\HomePageTests.class
+com\qa\testcases\CartOperations.class
+com\qa\testcases\HeadlessTest.class

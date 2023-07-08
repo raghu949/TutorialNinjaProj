@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser Suite" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="com.qa.utilities.ListenerClass" />
+	</listeners>
+	<test name="TestWithChrome">
+		<parameter name="browser" value="Chrome"/>
+		<classes>
+			<class name="com.qa.testcases.LoginTestCase" />
+			<class name="com.qa.testcases.AddAddress" />
+		</classes>
+	</test>
+	<test name="Test">
+		<parameter name="browser" value="Edge"/>
+		<classes> 
+			<class name="com.qa.testcases.LoginAndSearchPrd" />
+			<class name="com.qa.testcases.CartOperations" />
+			<class name="com.qa.testcases.RegisterTestCases">
+				<methods>
+					<exclude name="registerAccountWithManadatoryFields" />
+				</methods>
+			</class>
+			<class name="com.qa.testcases.HomePageTests">
+				<methods>
+					<exclude name="brokenLinksInHomePage()"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

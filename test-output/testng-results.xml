@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T17:36:40 IST" name="Cross Browser Suite" finished-at="2023-07-08T17:37:15 IST" duration-ms="34386">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T17:36:40 IST" name="Test" finished-at="2023-07-08T17:37:02 IST" duration-ms="21866">
+      <class name="com.qa.testcases.CartOperations">
+        <test-method is-config="true" signature="startCartOperations(java.lang.String)[pri:0, instance:com.qa.testcases.CartOperations@5c671d7f]" started-at="2023-07-08T17:36:57 IST" name="startCartOperations" finished-at="2023-07-08T17:37:02 IST" duration-ms="4580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCartOperations -->
+        <test-method signature="removeProductFromCart()[pri:1, instance:com.qa.testcases.CartOperations@5c671d7f]" started-at="2023-07-08T17:37:02 IST" name="removeProductFromCart" finished-at="2023-07-08T17:37:02 IST" depends-on-methods="searchAProduct()" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="closeBrowserInstances()[pri:0, instance:com.qa.testcases.CartOperations@5c671d7f]" started-at="2023-07-08T17:37:02 IST" name="closeBrowserInstances" finished-at="2023-07-08T17:37:02 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserInstances -->
+      </class> <!-- com.qa.testcases.CartOperations -->
+      <class name="com.qa.testcases.HomePageTests">
+        <test-method is-config="true" signature="StartTest(java.lang.String)[pri:0, instance:com.qa.testcases.HomePageTests@687e99d8]" started-at="2023-07-08T17:36:40 IST" name="StartTest" finished-at="2023-07-08T17:36:44 IST" duration-ms="4191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartTest -->
+        <test-method signature="noofLinksInHomePage()[pri:1, instance:com.qa.testcases.HomePageTests@687e99d8]" started-at="2023-07-08T17:36:44 IST" name="noofLinksInHomePage" finished-at="2023-07-08T17:36:45 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noofLinksInHomePage -->
+        <test-method is-config="true" signature="closeBrowserInstances()[pri:0, instance:com.qa.testcases.HomePageTests@687e99d8]" started-at="2023-07-08T17:36:45 IST" name="closeBrowserInstances" finished-at="2023-07-08T17:36:45 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserInstances -->
+      </class> <!-- com.qa.testcases.HomePageTests -->
+      <class name="com.qa.testcases.LoginAndSearchPrd">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.qa.testcases.LoginAndSearchPrd@1757cd72]" started-at="2023-07-08T17:36:40 IST" name="loadConfig" finished-at="2023-07-08T17:36:40 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="startLoginAndSearch(java.lang.String)[pri:0, instance:com.qa.testcases.LoginAndSearchPrd@1757cd72]" started-at="2023-07-08T17:36:45 IST" name="startLoginAndSearch" finished-at="2023-07-08T17:36:49 IST" duration-ms="4608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startLoginAndSearch -->
+        <test-method signature="searchAProduct()[pri:1, instance:com.qa.testcases.LoginAndSearchPrd@1757cd72]" started-at="2023-07-08T17:36:49 IST" name="searchAProduct" finished-at="2023-07-08T17:36:57 IST" duration-ms="7401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginAndSearchPrd@1757cd72]" started-at="2023-07-08T17:36:57 IST" name="tearDown" finished-at="2023-07-08T17:36:57 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.qa.testcases.LoginAndSearchPrd@1757cd72]" started-at="2023-07-08T17:37:15 IST" name="closeBrowser" finished-at="2023-07-08T17:37:15 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testcases.LoginAndSearchPrd -->
+    </test> <!-- Test -->
+    <test started-at="2023-07-08T17:36:40 IST" name="TestWithChrome" finished-at="2023-07-08T17:37:15 IST" duration-ms="34386">
+      <class name="com.qa.testcases.AddAddress">
+        <test-method is-config="true" signature="startTesting(java.lang.String)[pri:0, instance:com.qa.testcases.AddAddress@1ce24091]" started-at="2023-07-08T17:36:40 IST" name="startTesting" finished-at="2023-07-08T17:36:45 IST" duration-ms="5095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTesting -->
+        <test-method signature="verifyAddAddress()[pri:1, instance:com.qa.testcases.AddAddress@1ce24091]" started-at="2023-07-08T17:36:45 IST" name="verifyAddAddress" finished-at="2023-07-08T17:36:48 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.AddAddress@1ce24091]" started-at="2023-07-08T17:36:48 IST" name="tearDown" finished-at="2023-07-08T17:36:48 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.AddAddress -->
+      <class name="com.qa.testcases.LoginTestCase">
+        <test-method is-config="true" signature="startWithRegister(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@3d285d7e]" started-at="2023-07-08T17:36:48 IST" name="startWithRegister" finished-at="2023-07-08T17:36:50 IST" duration-ms="2361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWithRegister -->
+        <test-method signature="verifyLoginWithExcel()[pri:1, instance:com.qa.testcases.LoginTestCase@3d285d7e]" started-at="2023-07-08T17:36:50 IST" name="verifyLoginWithExcel" finished-at="2023-07-08T17:36:51 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithExcel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTestCase@3d285d7e]" started-at="2023-07-08T17:36:51 IST" name="tearDown" finished-at="2023-07-08T17:36:51 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startWithRegister(java.lang.String)[pri:0, instance:com.qa.testcases.LoginTestCase@3d285d7e]" started-at="2023-07-08T17:36:51 IST" name="startWithRegister" finished-at="2023-07-08T17:36:54 IST" duration-ms="2366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWithRegister -->
+        <test-method signature="verifyLoginWithInvalidPassword()[pri:2, instance:com.qa.testcases.LoginTestCase@3d285d7e]" started-at="2023-07-08T17:36:54 IST" name="verifyLoginWithInvalidPassword" finished-at="2023-07-08T17:37:14 IST" duration-ms="20470" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc8109ca13589db8eee20e05fa2d7704, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62607/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc8109ca13589db8eee20e05fa2d7704]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bc8109ca13589db8eee20e05fa2d7704, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62607/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc8109ca13589db8eee20e05fa2d7704
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy21.isDisplayed(Unknown Source)
+at com.qa.pages.LoginSuccessPage.editAccSuccessPageStatus(LoginSuccessPage.java:37)
+at com.qa.testcases.LoginTestCase.verifyLoginWithInvalidPassword(LoginTestCase.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginTestCase@3d285d7e]" started-at="2023-07-08T17:37:14 IST" name="tearDown" finished-at="2023-07-08T17:37:15 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.LoginTestCase -->
+    </test> <!-- TestWithChrome -->
+  </suite> <!-- Cross Browser Suite -->
+</testng-results>

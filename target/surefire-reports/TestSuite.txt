@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 5, Errors: 0, Skipped: 14, Time elapsed: 90.408 s <<< FAILURE! - in TestSuite
+startTesting(com.qa.testcases.AddAddress)  Time elapsed: 46.565 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.qa.testcases.AddAddress.startTesting(AddAddress.java:37)
+
+StartTest(com.qa.testcases.HomePageTests)  Time elapsed: 46.567 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.qa.testcases.HomePageTests.StartTest(HomePageTests.java:36)
+
+startLoginAndSearch(com.qa.testcases.LoginAndSearchPrd)  Time elapsed: 3.032 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.qa.testcases.LoginAndSearchPrd.startLoginAndSearch(LoginAndSearchPrd.java:35)
+
+startCartOperations(com.qa.testcases.CartOperations)  Time elapsed: 2.856 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.qa.testcases.CartOperations.startCartOperations(CartOperations.java:28)
+
+startWithRegister(com.qa.testcases.LoginTestCase)  Time elapsed: 37.782 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.qa.testcases.LoginTestCase.startWithRegister(LoginTestCase.java:33)
+
