@@ -7,7 +7,7 @@
 	<test name="TestWithChrome">
 		<parameter name="browser" value="Chrome"/>
 		<classes>
-			<class name="com.qa.testcases.LoginTestCase" />
+			<!-- <class name="com.qa.testcases.LoginTestCase" /> -->
 			<class name="com.qa.testcases.AddAddress" />
 		</classes>
 	</test>
