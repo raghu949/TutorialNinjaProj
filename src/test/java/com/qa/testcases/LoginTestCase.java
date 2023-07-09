@@ -68,7 +68,7 @@ public class LoginTestCase extends BaseClass {
 		loginPage.passwordWE(prop.getProperty("inValidPassword"));
 		Log.info("Click on Login Button");
 		loginSuccessPage=loginPage.clickOnContinueBtn();
-		Assert.assertTrue(loginSuccessPage.editAccSuccessPageStatus(), "Login Failed");
+		Assert.assertTrue(loginPage.warningMessage(), testProp.getProperty("loginFailedMessage"));
 		Log.endTestCase("Login Test Compeleted");
 	}
 

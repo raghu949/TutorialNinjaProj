@@ -17,7 +17,8 @@ public class LoginPage extends BaseClass {
 	private WebElement passwordWE;
 	@FindBy(xpath="//input[@value=\"Login\"]")
 	private WebElement loginWE;
-	
+	@FindBy(xpath="//i[@class=\"fa fa-exclamation-circle\"]")
+	private WebElement warningmsgWE;
 	
 	public LoginPage()
 	{
@@ -33,6 +34,10 @@ public class LoginPage extends BaseClass {
 	public void passwordWE(String passwordTxt)
 	{
 		passwordWE.sendKeys(passwordTxt);
+	}
+	public boolean warningMessage()
+	{
+		return warningmsgWE.isDisplayed();
 	}
 
 	
